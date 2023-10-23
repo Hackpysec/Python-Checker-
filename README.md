@@ -52,7 +52,7 @@ El script contiene las siguientes funciones:
 > El token de Virustotal se obtiene al registrarnos en su sitio web. 
 
 
-> :information_source:
+> :information_source: ### Importante:
 >
 > El token de Virustotal se obtiene al registrarnos en su sitio web. 
 
