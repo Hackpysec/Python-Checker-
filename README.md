@@ -9,7 +9,7 @@ Este es un script de Python que te permite verificar si un hash de archivo es co
 
 Antes de utilizar este script, asegúrate de tener instaladas las siguientes dependencias:
 
-- Python (versión 3.x)
+- Python (versión 3.12.0)
 - La biblioteca de Python 'requests' (puedes instalarla usando `pip install requests`)
 
 ## Configuración
