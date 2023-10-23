@@ -3,26 +3,29 @@
 
 # Verificador de Hash en VirusTotal
 
-Este es un script de Python que te permite verificar si un hash de archivo es conocido por VirusTotal. VirusTotal es un servicio que escanea archivos en busca de malware y proporciona información sobre ellos.
+Este proyecto es un script de Python que permite a los usuarios verificar hashes en VirusTotal.
 
-## Requisitos previos
+## Requisitos
 
-Antes de utilizar este script, asegúrate de tener instaladas las siguientes dependencias:
-
-- Python (versión 3.12.0)
-- La biblioteca de Python 'requests' (puedes instalarla usando `pip install requests`)
-
-## Configuración
-
-1. Obtén una clave de API de VirusTotal siguiendo las instrucciones en su [sitio web](https://www.virustotal.com).
-
-2. Ejecuta el script y se te pedirá que ingreses tu clave de API.
+- Python 3
+- Módulo `requests` de Python
 
 ## Uso
 
-1. Ejecuta el script proporcionando el hash de archivo que deseas consultar en VirusTotal cuando se te solicite.
+1. Clona este repositorio a tu máquina local.
+2. Instala el módulo `requests` de Python si aún no lo has hecho. Puedes hacerlo con el siguiente comando: `pip install requests`.
+3. Ejecuta el script con el comando: `python check_hash.py`.
+4. Cuando se te solicite, ingresa tu clave de API de VirusTotal.
+5. Ingresa el hash que deseas verificar.
 
-2. El script consultará VirusTotal y te mostrará los resultados.
+El script consultará el hash en VirusTotal y mostrará los resultados.
 
-## Ejemplo de Uso
+## Funciones
+
+El script contiene las siguientes funciones:
+
+- `check_hash(hash_to_check)`: Esta función toma un hash como argumento y realiza una solicitud a la API de VirusTotal para obtener información sobre ese hash.
+- `print_result(result)`: Esta función toma el resultado de la consulta a VirusTotal y lo imprime de manera legible.
+
+
 
