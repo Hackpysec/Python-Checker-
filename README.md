@@ -52,8 +52,7 @@ El script contiene las siguientes funciones:
 > El token de Virustotal se obtiene al registrarnos en su sitio web. 
 
 
-.markdown-body .callout[theme="🎅"] {
-  --background: #c54245;
-  --border: #ffffff6b;
-  --text: #f5fffa;
-}
+> :information_source:
+>
+> El token de Virustotal se obtiene al registrarnos en su sitio web. 
+
