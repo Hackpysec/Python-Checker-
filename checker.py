@@ -31,4 +31,3 @@ if __name__ == "__main__":
     hash_to_check = input("Introduce el hash que deseas consultar en VirusTotal: ")
     result = check_hash(hash_to_check)
     print_result(result)
-
