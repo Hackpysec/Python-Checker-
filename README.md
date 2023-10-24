@@ -51,4 +51,6 @@ El script contiene las siguientes funciones:
 > [!NOTE]
 > El token de Virustotal se obtiene al registrarnos en su sitio web.
 
+> An example showing the `tip` type prompt.
+{: .prompt-tip }
 
