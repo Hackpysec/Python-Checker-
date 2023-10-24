@@ -55,6 +55,7 @@ El script contiene las siguientes funciones:
 > [!IMPORTANT]
 > Crucial information necessary for users to succeed.
 
-
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
 
 
